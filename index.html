@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>搞事情</title>
+    <link rel="stylesheet" href="lib/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <script src=""></script>
+    <div id="main">
+        <div class="navbar">
+            <h1>表事情</h1>
+        </div>
+        <div class="header">
+            开黑了么就写作业
+        </div>
+        <div id="task-form">
+            <div class="wrap">
+                <input id="task-input" type="text">
+                <button type="submit">submit</button>
+            </div>
+        </div>
+        <div class="task-list">
+            <div class="wrap">
+                    未完成
+                <div class="item">
+                    随便填点
+                </div>
+            </div>
+        </div>
+        <div class="task-list">
+            <div class="wrap">
+                    已完成
+                <div class="complete item">
+                    随便填点
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/vue.js"></script>
 </body>
+
 </html>
